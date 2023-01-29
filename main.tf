@@ -15,8 +15,8 @@ terraform {
   }
 }
 
-resource "sonarcloud_project" "testtesttest" {
-  key        = "testtesttest"
-  name       = "testtesttest"
+resource "sonarcloud_project" "testtesttestt" {
+  key        = "testtesttestt"
+  name       = "testtesttestt"
   visibility = "public"
 }
