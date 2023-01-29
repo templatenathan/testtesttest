@@ -2,7 +2,7 @@ terraform {
   required_providers {
     sonarcloud = {
       source  = "rewe-digital/sonarcloud"
-      version = "0.2.1"
+      version = "0.5.2"
     }
   }
 
@@ -15,8 +15,8 @@ terraform {
   }
 }
 
-resource "sonarcloud_project" "testtesttest" {
-  key        = "testtesttest"
-  name       = "testtesttest"
+resource "sonarcloud_project" "testtesttestt" {
+  key        = "testtesttestt"
+  name       = "testtesttestt"
   visibility = "public"
 }
